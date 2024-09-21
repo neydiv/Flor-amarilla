@@ -10,9 +10,9 @@
     <link rel="Stylesheet" href="style.css">
     <title>Flower</title>
 </head>
-<body>
+<body onclick="PlayAudio()">
 
-<div class="flower">
+<div class="flower" href="index2.html">
     <div class="text-above">Te amo mucho Nallely</div>
     <div class="mid">
     </div>
@@ -42,6 +42,19 @@
     </div>
     <div class="text-below">de mi para tu. </div>
   </div>
+  <br><br>
+  <audio id="musica1"   loop>
+    <source src="musica/bruno mars.mp3" type="audio/mpeg">
+  </audio>
+
+
+
+  <script>
+    function PlayAudio(){
+      document.getElementById("musica1").play();
+    }
+  </script>
+
+ 
 </body>
 </html>
-<!-- Código: Daniel Arteaga de Faster Academy-->
